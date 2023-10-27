@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* - - - - - - - - - ESTILOS HABILIDADES - - - - - - - - - -*/
+
+/* .sectionHabilidades{
+    padding: 0 25%;
+}
+
+.habilidadesCont{
+    width: 100%;
+    padding: 5%;
+}
+
+.tituloHabilidad{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.cajonHabilidades{
+    width: 100%;
+}
+
+.textoHabilidades{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBar{
+    width: 100%;
+}
+
+.progressBar progress{
+    width: 100%;
+}
+*/
+
+.sectionProyectos{
+    padding: 0 8%;
+}
+
+.tituloSectionProyectos{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.proyectosCont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4% 2%;
+    height: 120vh;
+}
+
+.contImg{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 32vh;
+}
+
+.contImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.descProyecto{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1% 3%;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+.contImg:hover .descProyecto{
+    transform: scale(1);
+}
