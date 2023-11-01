@@ -153,7 +153,7 @@ button:hover {
 
 .sectionSobreMi{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     margin: 5% 0;
     display: flex;
     justify-content: center;
@@ -234,7 +234,7 @@ button:hover {
 .sectionServicios{
     width: 100%;
     height: auto;
-    background-color: #dbdbdb;
+    background-color: #e2e2e2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,6 +441,134 @@ progress[value]::-webkit-progress-value{
 .descProyecto h2{
     color: #ff797e;
 }
+/* - - - - - - ESTILOS CONTACTO - - - - - - */
+
+.sectionContacto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e2e2;
+}
+
+.contactoCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.tituloContacto{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 6% 0 2% 0;
+    text-decoration: underline #acacac 5px;
+}
+
+.contactoForm{
+    width: 100%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+
+.nombreDireccionCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+    gap: 3.5%;
+}
+
+.nombreInput, .correoInput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombreInput input, .correoInput input{
+    width: 100%;
+    height: 55px;
+    border: 1px solid #adadad;
+    border-radius: 20px;
+    padding: 0 4%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nombreInput input:focus, .correoInput input:focus, .temaCont input:focus, .mensajeCont textarea:focus{
+    outline: none;
+    border: 1px solid #f0454b;
+}
+
+.temaCont, .mensajeCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+.temaCont input{
+    width: 100%;
+    height: 55px;
+    border: 1px solid #adadad;
+    border-radius: 20px;
+    padding: 0 2%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mensajeCont textarea{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #adadad;
+    border-radius: 20px;
+    padding: 2% 2%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btnCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnEnviar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btnEnviar{
+    width: 180px;
+    height: 45px;
+    border: 1px solid #adadad;
+    border-radius: 45px;
+    transition: all .4s;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.626);
+    font-size: 1em;
+}
+
+button:hover {
+    background: #e3313763;
+    font-size: 1.2em;
+}
+
 
 /* - - - - - - ESTILOS FOOTER - - - - - - */
 
