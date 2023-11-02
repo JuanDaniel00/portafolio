@@ -144,7 +144,7 @@ nav ul li a:hover{
     font-weight: 550;
 }
 
-button:hover {
+.inicioContBtn:hover {
     background: #e3313763;
     font-size: 1.5em;
 }
@@ -153,8 +153,7 @@ button:hover {
 
 .sectionSobreMi{
     width: 100%;
-    height: 80vh;
-    margin: 5% 0;
+    margin: 10% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,18 +167,15 @@ button:hover {
 }
 
 .sobreMiContImg{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: #d7d7d7 solid 15px;
-    border-radius: 20px;
+    background-image: url(./../img//yo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    border: #d7d7d7 solid 10px;
+    border-radius: 10px;
 }
 
-.sobreMiContImg img{
-    width: 100%;
-    height: 100%;
-}
 
 .sobreMiContText{
     display: flex;
@@ -233,7 +229,6 @@ button:hover {
 
 .sectionServicios{
     width: 100%;
-    height: auto;
     background-color: #e2e2e2;
     display: flex;
     justify-content: center;
@@ -266,6 +261,7 @@ button:hover {
     flex-direction: column;
     background-color: #f0f0f0;
     border-radius: 5px;
+    padding: 5%;
 }
 
 .iconServicio{
@@ -297,9 +293,6 @@ button:hover {
     justify-content: center;
     font-size: 1rem;
     margin-bottom: 7%;
-}
-
-.subtituloServicio p{
     font-size: 1.2em;
 }
 
@@ -311,6 +304,8 @@ button:hover {
     font-size: 1rem;
     letter-spacing: .5px;
     line-height: 25px;
+    margin: 0 5%;
+    text-align: center;
 }
 /* - - - - - - - - - ESTILOS HABILIDADES - - - - - - - - - -*/
 
@@ -614,4 +609,340 @@ footer ul li a:hover{
 .redesCont a{
     font-size: 1.5rem;
     color: #f0f0f0;
+}
+
+/* - - - RESPONSIVE - - - */
+
+/* Estilos para pantallas más pequeñas que 1242px */
+
+@media screen and (max-width: 1260px) {
+
+    .headerDivLinks{
+        width: 40%;
+    }
+    .headerDivRedes{
+        width: 30%;
+    }
+    
+    .headerDivLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .sobreMiCont{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 7%;
+    }
+
+}
+
+/* Estilos para pantallas más pequeñas que 1050px */
+
+@media screen and (max-width: 1090px) {
+
+    nav{
+        font-size: 1.1rem;
+    }
+
+    .inicioCont{
+        width: 80%;
+        text-align: center;
+    }
+
+    .inicioCont h3{
+        font-size: .9em;
+        margin-bottom: 2%;
+    }
+
+    .inicioCont h1{
+        font-size: 2.9em;
+        margin-bottom: 3%;
+    }
+
+    .juanText{
+        font-size: .9em;
+    }
+
+    .inicioCont p{
+        font-size: .95em;
+        margin-bottom: 3%;
+    }
+
+    .inicioContBtn{
+        width: 180px;
+        height: 45px;
+        font-size: .9em;
+    }
+
+    .inicioContBtn:hover{
+        font-size: 1.1em;
+    }
+
+    .headerDivLinks{
+        width: 50%;
+    }
+    .headerDivRedes{
+        width: 25%;
+    }
+    
+    .headerDivLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+
+    .sobreMiCont{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+    }
+
+    .tituloSectionServicios{
+        font-size: 1.2rem;
+    }
+
+
+    .serviciosCont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        height: auto;
+        gap: 3.5%;
+        margin: 3% 0 15% 0;
+    }
+
+    .servicio{
+        padding: 10% 0;
+    }
+    
+
+    .tituloSectionProyectos{
+        font-size: 1.2rem;
+    }
+
+    .proyectosCont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 2.5% 3%;
+        margin: 3% 0 20% 0;
+    }
+
+    .contImg{
+        height: 30vh;
+    }
+
+    .tituloContacto{
+        font-size: 1rem;
+        margin-bottom: 3%;
+    }
+
+
+    form{
+        margin: 0 5%;
+    }
+
+    .nombreInput input, .correoInput input{
+        height: 40px;
+        font-size: .7rem;
+    }
+
+    .temaCont input{
+        height: 40px;
+        font-size: .7rem;
+    }
+
+    .mensajeCont textarea{
+        height: 100px;
+        font-size: .7rem;
+    }
+
+    .btnEnviar{
+        width: 150px;
+        height: 40px;
+        font-size: .8em;
+    }
+
+    .btnEnviar:hover{
+        font-size: 1em;
+    }
+
+    .derechosCont{
+        font-size: 1.1rem;
+    }
+
+    .redesCont a{
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para pantallas más pequeñas que 880px */
+
+@media screen and (max-width: 880px) {
+
+    nav{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+        width: 100%;
+    }
+
+    .headerDivLogo{
+        margin: 1% 0 2% 0;
+        order: 1;
+        justify-content: end;
+    }
+
+    .headerDivRedes ul{
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .headerDivRedes{
+        margin: 1% 0 2% 0;
+        margin-bottom: 2vw;
+        order: 1;
+    }
+
+    .headerDivLinks{
+        margin-bottom: 2%;
+        order: 2;
+        justify-content: center;
+    }
+
+    .sobreMiCont{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sobreMiCont{
+        margin: auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .sobreMiContImg{
+        width: 20%;
+        height: 20vw;
+        border-radius: 50%;
+        background: url(./../img/yo2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: #f0454b7c solid 5px;
+    }
+
+}
+
+/* Estilos para pantallas más pequeñas que 780px */
+
+@media screen and (max-width: 780px){
+
+    .headerDivLinks{
+        width: 75%;
+    }
+
+    .tituloSectionServicios{
+        font-size: 1rem;
+    }
+
+    .serviciosCont{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+        gap: 3vw;
+    }
+
+    .servicio{
+        padding: 10% 0;
+    }
+
+    .tituloServicios{
+        font-size: .9rem;
+    }
+
+    .subtituloServicio{
+        font-size: .9rem;
+    }
+
+    .descripcionServicio{
+        font-size: .8rem;
+    }
+
+    .sectionProyectos{
+        padding: 3% 15%;
+    }
+
+    .proyectosCont{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 5vw;
+    }
+
+    .contImg{
+        height: 35vh;
+    }
+    
+
+}
+
+/* Estilos para pantallas más pequeñas que 650px */
+
+@media screen and (max-width: 650px){
+
+    nav{
+        font-size: .8rem;
+        height: auto;
+    }
+
+    .headerDivLinks{
+        width: 85%;
+    }
+
+    .inicioCont{
+        width: 80%;
+        font-size:small;
+    }
+
+    .inicioCont h3{
+        font-size: .8em;
+        margin-bottom: 2%;
+    }
+
+    .inicioCont h1{
+        font-size: 2.2em;
+        margin-bottom: 3%;
+    }
+
+    .juanText{
+        font-size: .8em;
+    }
+
+    .inicioCont p{
+        font-size: .8em;
+        margin-bottom: 3%;
+    }
+
+    .inicioContBtn{
+        width: 110px;
+        height: 35px;
+        font-size: .8em;
+        border: 1px solid #ffffff;
+    }
+
+    .inicioContBtn:hover{
+        font-size: 1em;
+    }
+
+
+
 }
