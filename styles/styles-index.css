@@ -838,6 +838,7 @@ footer ul li a:hover{
         background-position: center;
         background-repeat: no-repeat;
         border: #f0454b7c solid 5px;
+        margin-bottom: 4vw;
     }
 
 }
@@ -877,6 +878,22 @@ footer ul li a:hover{
         font-size: .8rem;
     }
 
+    .habilidadCont{
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .nombreHabilidad{
+        font-size: .7rem;
+    }
+    .porcenHabilidad{
+        font-size: .7rem;
+    }
+
+    progress{
+        height: 5px;
+    }
+
     .sectionProyectos{
         padding: 3% 15%;
     }
@@ -893,6 +910,7 @@ footer ul li a:hover{
     }
     
 
+
 }
 
 /* Estilos para pantallas más pequeñas que 650px */
@@ -900,7 +918,7 @@ footer ul li a:hover{
 @media screen and (max-width: 650px){
 
     nav{
-        font-size: .8rem;
+        font-size: 1rem;
         height: auto;
     }
 
@@ -943,6 +961,86 @@ footer ul li a:hover{
         font-size: 1em;
     }
 
+    .tituloHabilidad{
+        margin-bottom: 6vw;
+    }
 
+    .nombreHabilidad{
+        font-size: .6rem;
+    }
+    .porcenHabilidad{
+        font-size: .6rem;
+    }
+}
 
+@media screen and (max-width: 520px){
+    nav{
+        font-size: .8rem;
+        height: auto;
+    }
+
+    .saludoSobreMi{
+        font-size: 1.2rem;
+    }
+
+    .rolSobreMi{
+        font-size: .8rem;
+    }
+
+    .bioSobreMi{
+        font-size: .8rem;
+    }
+
+    .sobreMiBtn{
+        width: 120px;
+        height: 35px;
+        font-size: .8em;
+    }
+
+    .sobreMiBtn:hover{
+        font-size: 1em;
+    }
+    
+    .tituloSectionProyectos{
+        font-size: 1rem;
+        margin-bottom: 6vw;
+    }
+
+    .sectionProyectos{
+        padding: 3% 5%;
+    }
+
+    .tituloContacto{
+        font-size: .9rem;
+        margin-bottom: 6vw;
+    }
+
+    .nombreInput input, .correoInput input{
+        height: 35px;
+        font-size: .6rem;
+    }
+
+    .temaCont input{
+        height: 35px;
+        font-size: .6rem;
+    }
+
+    .mensajeCont textarea{
+        height: 80px;
+        font-size: .6rem;
+    }
+
+    .btnEnviar{
+        width: 120px;
+        height: 35px;
+        font-size: .7em;
+    }
+
+    .btnEnviar:hover{
+        font-size: .9em;
+    }
+
+    .derechosCont{
+        font-size: .9rem;
+    }
 }
